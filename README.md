@@ -1,15 +1,14 @@
-1. Go to the feature_InvoiceProcess branch
+-Gehen Sie zum Zweig feature_InvoiceProcess
 
-2. There you will find two folders 
-(a)bpmn:bpmn process
-(b)Form: UI implementation
+-Dort finden Sie zwei Ordner 
+(a)bpmn:bpmn process 
+(b)Form: UI-Implementierung
 
-3. To make this project running you will need to Install
+-Um dieses Projekt zum Laufen zu bringen, müssen Sie Folgendes installieren:
+-Camunda Modeler (zum Ausführen des bpmn-Prozesses): 
+https://camunda.com/de/download/modeler/
+-Docker (To deploy the process):
+https://docs.camunda.org/manual/latest/installation/docker/?__hstc=252030934.19a58cb1229f477d4225a7b1c721c45b.1641820892069.1642094664933.1642171117587.3& __hssc=252030934.2.1642171117587&__hsfp=2128216044
 
-   (a) Camunda Modeler (To run the bpmn process): https://camunda.com/de/download/modeler/ 
+-Nach dem Start von Docker und dem Deployment in camunda modeler sollte der Prozess laufen
 
-   (b) Docker (To deploy the process):
-   https://docs.camunda.org/manual/latest/installation/docker/?__hstc=252030934.19a58cb1229f477d4225a7b1c721c45b.1641820892069.1642094664933.1642171117587.3&    __hssc=252030934.2.1642171117587&__hsfp=2128216044
-
-
-4. Starting docker and then deploying the stuff in camunda modeler and the process should run
